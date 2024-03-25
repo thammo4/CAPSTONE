@@ -102,7 +102,7 @@ def get_wikidata_label (wd_item_id):
 
 # Commons Page ID:61396200 -> WikiData Item ID:Q7186
 wc_page_id = 61396200;
-wd_item_id = get_depicts_statements(wc_page_id);
+wd_item_id = get_q_number(wc_page_id);
 
 
 
@@ -112,7 +112,7 @@ wd_item_id = get_depicts_statements(wc_page_id);
 
 # Commons Page ID:71048738 -> WikiData Item ID:Q1042920
 wc_page_id = 71048738;
-wd_item_id = get_depicts_statements(wc_page_id);
+wd_item_id = get_q_number(wc_page_id);
 
 
 #
@@ -121,4 +121,4 @@ wd_item_id = get_depicts_statements(wc_page_id);
 #
 
 wc_page_id = get_random_commons_ids(num_files=1);
-wd_item_id = get_depicts_statements(wc_page_id);
+wd_item_id = get_q_number(wc_page_id);
