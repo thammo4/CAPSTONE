@@ -30,7 +30,7 @@ def get_random_commons_ids (num_files=1):
 # Function to map WikiMedia Commons uploads to their corresponding WikiData Entities
 #
 
-def get_depicts_statements(wc_page_id):
+def get_q_number (wc_page_id):
     # Construct the WikiBase Entity ID
     wb_entity_id = f'M{wc_page_id}'
 
