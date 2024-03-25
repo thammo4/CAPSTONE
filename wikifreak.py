@@ -1,4 +1,5 @@
-import requests
+import requests;
+import pandas as pd;
 
 
 #
@@ -57,7 +58,7 @@ def get_q_number (wc_page_id):
     # Check if 'P180' (depicts) property exists
     if 'P180' not in data_statements or not data_statements['P180']:
         print(f"No 'depicts' statements for Wikimedia Commons Page ID: {wc_page_id}")
-        return None
+        return 0;
 
     # Assuming 'P180' exists and has at least one entry
     depicts = data_statements['P180'][0]
@@ -91,9 +92,58 @@ def get_wikidata_label (wd_item_id):
     if 'entities' in data and wd_item_id in data['entities'] and 'labels' in data['entities'][wd_item_id] and 'en' in data['entities'][wd_item_id]['labels']:
         label = data['entities'][wd_item_id]['labels']['en']['value'];
     else:
-        label = 'label not found';
+        # label = 'label not found';
+        print(f'No depicts label found for {wd_item_id}');
+        return None;
 
     return label;
+
+
+#
+# Define function that will construct a convenient dataframe by repeatedly making calls to the wiki commons/data APIs
+# until a sufficiently large data set has been collected.
+# • Note that the number of calls ≥ number of rows in returned dataframe
+# • To create a CSV containing the returned dataframe:
+#       df = siki_wiki(25);
+#       df.to_csv('df_wiki.csv');
+#
+
+def siki_wiki (row_count_wanted):
+    '''
+        Parameters:
+            • row_count_wanted [int]: Specify the desired number of rows for the resulting dataframe to contain.
+    '''
+    df_wiki = pd.DataFrame({'wiki_commons_id':[], 'wiki_data_id':[], 'depicts':[]});
+
+    df_row_count = 0;
+    enough_rows = False;
+
+    while not enough_rows:
+        row = {'wiki_commons_id':'', 'wiki_data_id':'', 'depicts':''};
+        wc_page_ids = get_random_commons_ids(25); print(f'Commons IDs:\n{wc_page_ids}');
+
+        for wc_page_id in wc_page_ids:
+            wd_q_number = get_q_number(wc_page_id);
+            if wd_q_number != 0:
+                wd_depicts_statement = get_wikidata_label(wd_q_number);
+
+                if wd_depicts_statement:
+                    row['wiki_commons_id'] = wc_page_id;
+                    row['wiki_data_id'] = wd_q_number;
+                    row['depicts'] = wd_depicts_statement;
+                    print(f'Row: {row}');
+
+                    df_row = pd.DataFrame.from_dict(row, orient='index').T;
+
+                    df_wiki = pd.concat([df_wiki, df_row], ignore_index=True); print(f'Updated DataFrame:\n{df_wiki}');
+
+                    df_row_count = df_wiki.shape[0];
+
+                    if df_row_count >= row_count_wanted:
+                        enough_rows = True;
+                        break;
+
+    return df_wiki;
 
 
 #
