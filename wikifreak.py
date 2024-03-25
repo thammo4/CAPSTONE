@@ -47,27 +47,19 @@ def get_depicts_statements(wc_page_id):
     response = requests.get(url=api_url, params=api_params)
     data = response.json()
 
-    #
-    # NOTE - Need to rewrite data_statements,...,wd_item_id  for fault tolerance
-    # `	• If we query for random files uploaded to commons, many of them will not have any statements (or, if they have statements, they may lack depicts P180)
-    # 	• Add boolean check somewhere below so that we check for existence of contents for data['entities'][wb_entity_id]
-    # 	• If data['entities'][wb_entity_id] doesnt exist, make the function bail on the subsequent operations
-    #
-    # Example of issue that arises when a commons file does not have any `depicts` statements:
-	# 	>>> get_random_commons_ids()
-	# 	107162291
-	# 	>>> get_depicts_statements(107162291)
-	# 	Traceback (most recent call last):
-	# 	  File "<stdin>", line 1, in <module>
-	# 	  File "/Users/thammons/Desktop/msds/capstone/CAPSTONE/wikifreak.py", line 54, in get_depicts_statements
-	# 	    depicts = data_statements['P180'][0]
-	# 	              ~~~~~~~~~~~~~~~^^^^^^^^
-	# 	KeyError: 'P180'
+    # Check if the entity exists and has statements
+    if 'entities' not in data or wb_entity_id not in data['entities'] or 'statements' not in data['entities'][wb_entity_id]:
+        print(f"No data available for Wikimedia Commons Page ID: {wc_page_id}")
+        return None
 
-    # Extract the Properties Associated with the Commons File
     data_statements = data['entities'][wb_entity_id]['statements']
 
-    # Extract the `Depicts` Property
+    # Check if 'P180' (depicts) property exists
+    if 'P180' not in data_statements or not data_statements['P180']:
+        print(f"No 'depicts' statements for Wikimedia Commons Page ID: {wc_page_id}")
+        return None
+
+    # Assuming 'P180' exists and has at least one entry
     depicts = data_statements['P180'][0]
 
     # Extract relevant information pertaining to the `Depicts` statement
@@ -79,8 +71,30 @@ def get_depicts_statements(wc_page_id):
     # Extract the WikiData Item ID Corresponding to the original Commons File
     wd_item_id = wd_item['id']
 
-    print(f'Commons Page ID:{wc_page_id} -> WikiData Item ID:{wd_item_id}');
+    print(f'Commons Page ID:{wc_page_id} -> WikiData Item ID:{wd_item_id}')
     return wd_item_id
+
+
+def get_wikidata_label (wd_item_id):
+    api_url = 'https://www.wikidata.org/w/api.php';
+    api_params = {
+        'action':'wbgetentities',
+        'ids': wd_item_id,
+        'format': 'json',
+        'props': 'labels',
+        'languages': 'en'
+    };
+
+    r = requests.get(api_url, api_params);
+    data = r.json();
+
+    if 'entities' in data and wd_item_id in data['entities'] and 'labels' in data['entities'][wd_item_id] and 'en' in data['entities'][wd_item_id]['labels']:
+        label = data['entities'][wd_item_id]['labels']['en']['value'];
+    else:
+        label = 'label not found';
+
+    return label;
+
 
 #
 # Depicts Example 1: Marie Curie c. 1920s.jpg (https://commons.wikimedia.org/w/index.php?curid=61396200)
@@ -106,5 +120,5 @@ wd_item_id = get_depicts_statements(wc_page_id);
 # 	• Note: this might return an error if the random commons file does not have any depicts statements
 #
 
-wc_page_id = get_random_commons_id(num_files=1);
+wc_page_id = get_random_commons_ids(num_files=1);
 wd_item_id = get_depicts_statements(wc_page_id);

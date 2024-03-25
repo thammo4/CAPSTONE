@@ -21,6 +21,12 @@ def get_image_metadata():
 	metadata = pages[page_id].get('imageinfo', [{}])[0].get('extmetadata', {})
 	return metadata
 
+
+#
+# This "should" return wikidata item IDs (e.g. Q#s), but nothing is returned
+# We are unsure how to map a wikimedia commons entry to wikidata properties
+#
+
 def get_wikidata_entity_id(file_name):
 	# Get Wikidata entity ID from Commons API
 	commons_api_url = f'https://commons.wikimedia.org/w/api.php?action=query&titles={file_name}&prop=imageinfo&iiprop=extmetadata&format=json'
@@ -30,6 +36,11 @@ def get_wikidata_entity_id(file_name):
 	page_id = next(iter(pages))
 	wikidata_entity_id = pages[page_id].get('imageinfo', [{}])[0].get('extmetadata', {}).get('wikibase_item', {}).get('value')
 	return wikidata_entity_id
+
+
+# 
+# Cannot run this function because we cannot retrieve the wikidata ids
+#
 
 def get_wikidata_statements(wikidata_entity_id):
 	# Get depicts statements from Wikidata API
