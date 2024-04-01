@@ -108,7 +108,7 @@ def get_wikidata_label (wd_item_id):
 #       df.to_csv('df_wiki.csv');
 #
 
-def siki_wiki (row_count_wanted):
+def create_df (row_count_wanted):
     '''
         Parameters:
             • row_count_wanted [int]: Specify the desired number of rows for the resulting dataframe to contain.
