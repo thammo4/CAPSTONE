@@ -104,7 +104,7 @@ def get_wikidata_label (wd_item_id):
 # until a sufficiently large data set has been collected.
 # • Note that the number of calls ≥ number of rows in returned dataframe
 # • To create a CSV containing the returned dataframe:
-#       df = siki_wiki(25);
+#       df = create_df(25);
 #       df.to_csv('df_wiki.csv');
 #
 
