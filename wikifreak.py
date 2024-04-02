@@ -107,6 +107,19 @@ def get_wikidata_label (wd_item_id):
 #       df = create_df(25);
 #       df.to_csv('df_wiki.csv');
 #
+#
+# >>> df = create_df(10)
+#   wiki_commons_id wiki_data_id                         depicts
+# 0       136824891       Q34442                            road
+# 1       140400994       Q11451                     agriculture
+# 2       146977661         Q525                             Sun
+# 3        61900027     Q1349184                     Jerry Rubin
+# 4         6308109     Q2715627        Semaprochilodus insignis
+# 5        94952265    Q61913577  town hall of Neuilly-sur-Seine
+# 6        82882839    Q69482485      Onze Afgevaardigden (1913)
+# 7       112921622    Q12292478                          estate
+# 8       141399896    Q42958932                  Quinta Capurro
+# 9       146926387     Q8195195                         Alfonso
 
 def create_df (row_count_wanted):
     '''
@@ -144,6 +157,10 @@ def create_df (row_count_wanted):
                         break;
 
     return df_wiki;
+
+
+
+
 
 
 #
