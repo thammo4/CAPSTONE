@@ -1,0 +1,763 @@
+>>> from how_to_use_create_df import *
+EXAMPLES - WIKIFREAK DATAFRAMES
+
+Trying Commons ID Batch:
+[50485931, 141409156, 54076399, 83888071, 2913609, 58733462, 102770315, 122187778, 109212834, 20531458, 127557766, 52379428, 8541327, 116203078, 83932728, 103426072, 1646309, 19744642, 54172385, 69697953, 48615728, 101254669, 65747833, 91741871, 79596803, 68588940, 53316520, 44711052, 35529541, 129877703, 128714020, 65047194, 76734687, 52125828, 17183203, 56754313, 126918430, 40929473, 137213831, 6567332, 93352248, 44780465, 144817969, 134834487, 112813270, 88098861, 104770624, 29821401, 26633543, 36208408, 36420310, 61796029, 49811989, 129833480, 127894580, 54041022, 71100163, 118199350, 28040681, 141700690, 68240724, 146896176, 94079819, 49029516, 110758898, 29866673, 74169420, 107578917, 97842580, 80970038, 135699499, 87194394, 33073627, 109279335, 105446998, 20548263, 104351713, 101351890, 35966141, 108281685, 48676933, 47763212, 143167863, 115047728, 39815927, 124028688, 84335973, 40889753, 93119662, 3427227, 42842605, 140747818, 102145113, 13595920, 18832427, 139440737, 102818595, 50077003, 94770052, 29491110, 101442454, 134738876, 30097864, 46713149, 99030710, 19425312, 41645455, 14006182, 97574799, 107020528, 72225722, 82006343, 122264767, 16477764, 134248200, 31268238, 108385893, 82662930, 46714720, 125264297, 2944380, 117196591, 98273484, 39170211, 44433938, 17862430, 48788892, 15749402, 127017814, 62481982, 77275204, 94097614, 59745136, 94792664, 129730755, 117036535, 50986985, 107502722, 144015497, 14555343, 36344357, 138697568, 101371556, 19265777, 14562626, 9200655, 73868704, 59665618, 8329713, 28688057]
+No 'depicts' statements for Wikimedia Commons Page ID: 141409156
+No data available for Wikimedia Commons Page ID: 54076399
+No 'depicts' statements for Wikimedia Commons Page ID: 83888071
+No 'depicts' statements for Wikimedia Commons Page ID: 2913609
+No 'depicts' statements for Wikimedia Commons Page ID: 58733462
+No 'depicts' statements for Wikimedia Commons Page ID: 102770315
+No 'depicts' statements for Wikimedia Commons Page ID: 122187778
+No 'depicts' statements for Wikimedia Commons Page ID: 20531458
+No 'depicts' statements for Wikimedia Commons Page ID: 127557766
+No 'depicts' statements for Wikimedia Commons Page ID: 52379428
+No 'depicts' statements for Wikimedia Commons Page ID: 8541327
+No 'depicts' statements for Wikimedia Commons Page ID: 83932728
+No 'depicts' statements for Wikimedia Commons Page ID: 103426072
+No 'depicts' statements for Wikimedia Commons Page ID: 1646309
+No 'depicts' statements for Wikimedia Commons Page ID: 19744642
+No 'depicts' statements for Wikimedia Commons Page ID: 54172385
+No 'depicts' statements for Wikimedia Commons Page ID: 69697953
+No 'depicts' statements for Wikimedia Commons Page ID: 48615728
+No 'depicts' statements for Wikimedia Commons Page ID: 101254669
+No 'depicts' statements for Wikimedia Commons Page ID: 65747833
+No 'depicts' statements for Wikimedia Commons Page ID: 91741871
+No 'depicts' statements for Wikimedia Commons Page ID: 79596803
+No 'depicts' statements for Wikimedia Commons Page ID: 68588940
+No 'depicts' statements for Wikimedia Commons Page ID: 53316520
+No 'depicts' statements for Wikimedia Commons Page ID: 44711052
+No 'depicts' statements for Wikimedia Commons Page ID: 35529541
+No 'depicts' statements for Wikimedia Commons Page ID: 129877703
+No 'depicts' statements for Wikimedia Commons Page ID: 128714020
+No 'depicts' statements for Wikimedia Commons Page ID: 65047194
+No 'depicts' statements for Wikimedia Commons Page ID: 76734687
+No data available for Wikimedia Commons Page ID: 52125828
+No 'depicts' statements for Wikimedia Commons Page ID: 17183203
+No 'depicts' statements for Wikimedia Commons Page ID: 56754313
+No 'depicts' statements for Wikimedia Commons Page ID: 126918430
+No 'depicts' statements for Wikimedia Commons Page ID: 40929473
+No 'depicts' statements for Wikimedia Commons Page ID: 137213831
+No 'depicts' statements for Wikimedia Commons Page ID: 6567332
+No 'depicts' statements for Wikimedia Commons Page ID: 93352248
+No 'depicts' statements for Wikimedia Commons Page ID: 44780465
+No 'depicts' statements for Wikimedia Commons Page ID: 144817969
+No 'depicts' statements for Wikimedia Commons Page ID: 112813270
+No 'depicts' statements for Wikimedia Commons Page ID: 88098861
+No 'depicts' statements for Wikimedia Commons Page ID: 104770624
+No 'depicts' statements for Wikimedia Commons Page ID: 29821401
+No 'depicts' statements for Wikimedia Commons Page ID: 26633543
+No 'depicts' statements for Wikimedia Commons Page ID: 36208408
+No 'depicts' statements for Wikimedia Commons Page ID: 36420310
+No 'depicts' statements for Wikimedia Commons Page ID: 61796029
+No 'depicts' statements for Wikimedia Commons Page ID: 49811989
+No 'depicts' statements for Wikimedia Commons Page ID: 129833480
+No 'depicts' statements for Wikimedia Commons Page ID: 54041022
+No 'depicts' statements for Wikimedia Commons Page ID: 71100163
+No 'depicts' statements for Wikimedia Commons Page ID: 118199350
+No 'depicts' statements for Wikimedia Commons Page ID: 28040681
+No 'depicts' statements for Wikimedia Commons Page ID: 141700690
+No data available for Wikimedia Commons Page ID: 146896176
+No 'depicts' statements for Wikimedia Commons Page ID: 94079819
+No 'depicts' statements for Wikimedia Commons Page ID: 49029516
+No 'depicts' statements for Wikimedia Commons Page ID: 110758898
+No 'depicts' statements for Wikimedia Commons Page ID: 29866673
+No 'depicts' statements for Wikimedia Commons Page ID: 74169420
+No 'depicts' statements for Wikimedia Commons Page ID: 107578917
+No data available for Wikimedia Commons Page ID: 97842580
+No 'depicts' statements for Wikimedia Commons Page ID: 80970038
+No 'depicts' statements for Wikimedia Commons Page ID: 135699499
+No 'depicts' statements for Wikimedia Commons Page ID: 87194394
+No 'depicts' statements for Wikimedia Commons Page ID: 33073627
+No 'depicts' statements for Wikimedia Commons Page ID: 109279335
+No 'depicts' statements for Wikimedia Commons Page ID: 105446998
+No 'depicts' statements for Wikimedia Commons Page ID: 20548263
+No 'depicts' statements for Wikimedia Commons Page ID: 104351713
+No 'depicts' statements for Wikimedia Commons Page ID: 101351890
+No 'depicts' statements for Wikimedia Commons Page ID: 35966141
+No 'depicts' statements for Wikimedia Commons Page ID: 47763212
+No data available for Wikimedia Commons Page ID: 143167863
+No 'depicts' statements for Wikimedia Commons Page ID: 39815927
+No 'depicts' statements for Wikimedia Commons Page ID: 124028688
+No data available for Wikimedia Commons Page ID: 40889753
+No data available for Wikimedia Commons Page ID: 93119662
+No 'depicts' statements for Wikimedia Commons Page ID: 3427227
+No 'depicts' statements for Wikimedia Commons Page ID: 140747818
+No 'depicts' statements for Wikimedia Commons Page ID: 102145113
+No 'depicts' statements for Wikimedia Commons Page ID: 13595920
+No 'depicts' statements for Wikimedia Commons Page ID: 18832427
+No 'depicts' statements for Wikimedia Commons Page ID: 102818595
+No 'depicts' statements for Wikimedia Commons Page ID: 50077003
+No 'depicts' statements for Wikimedia Commons Page ID: 94770052
+No 'depicts' statements for Wikimedia Commons Page ID: 29491110
+No 'depicts' statements for Wikimedia Commons Page ID: 101442454
+No 'depicts' statements for Wikimedia Commons Page ID: 134738876
+No 'depicts' statements for Wikimedia Commons Page ID: 30097864
+No 'depicts' statements for Wikimedia Commons Page ID: 46713149
+No 'depicts' statements for Wikimedia Commons Page ID: 99030710
+No 'depicts' statements for Wikimedia Commons Page ID: 41645455
+No 'depicts' statements for Wikimedia Commons Page ID: 14006182
+No 'depicts' statements for Wikimedia Commons Page ID: 97574799
+No 'depicts' statements for Wikimedia Commons Page ID: 72225722
+No 'depicts' statements for Wikimedia Commons Page ID: 82006343
+No 'depicts' statements for Wikimedia Commons Page ID: 122264767
+No 'depicts' statements for Wikimedia Commons Page ID: 16477764
+No 'depicts' statements for Wikimedia Commons Page ID: 134248200
+No 'depicts' statements for Wikimedia Commons Page ID: 31268238
+No 'depicts' statements for Wikimedia Commons Page ID: 108385893
+No 'depicts' statements for Wikimedia Commons Page ID: 82662930
+No 'depicts' statements for Wikimedia Commons Page ID: 46714720
+No 'depicts' statements for Wikimedia Commons Page ID: 125264297
+No 'depicts' statements for Wikimedia Commons Page ID: 2944380
+No 'depicts' statements for Wikimedia Commons Page ID: 117196591
+No 'depicts' statements for Wikimedia Commons Page ID: 98273484
+No 'depicts' statements for Wikimedia Commons Page ID: 39170211
+No data available for Wikimedia Commons Page ID: 44433938
+SBF DATAFRAME
+    wiki_commons_id                                        wiki_data_q                                            depicts
+0         50485931                                        [Q20175702]  [The Presentation and Marriage of the Virgin, ...
+1        109212834          [Q1081138, Q11451, Q532, Q3947, Q7620333]  [historic site, agriculture, village, house, S...
+2        116203078                                           [Q22698]                                             [park]
+3        134834487                               [Q55075651, Q190684]                              [upland, County Down]
+4        127894580                                [Q38076, Q61977929]                   [McDonald’s, Tauberbischofsheim]
+5         68240724                                        [Q28538641]                                 [Queen Mab’s Cave]
+6        108281685                                  [Q205495, Q18125]                      [filling station, Manchester]
+7         48676933                                          [Q180971]                                        [Apollo 17]
+8        115047728                                          [Q255079]                                [Olympic Mountains]
+9         84335973  [Q729877, Q152356, Q315994, Q2301240, Q199988,...  [Düren–Heimbach train line, Eifel, DB Class 21...
+10        42842605                                        [Q18623932]                               [Dashtadem Fortress]
+11       139440737                                 [Q11451, Q2830827]                            [agriculture, Remenham]
+12        19425312                                        [Q37465401]                                   [Kříž u hájovny]
+13       107020528                                [Q175185, Q1770948]                             [rural area, Hanslope]
+14        17862430                                        [Q20742567]                             [Rocks in New England]
+-------
+
+Trying Commons ID Batch:
+[134103880, 140719939, 31172936, 122739121, 51421559, 143623002, 96663883, 30148459, 119194655, 94232833, 84849905, 120027611, 34133256, 15468582, 53603997, 66702862, 84387143, 29571695, 11146934, 136442774, 21629138, 41396073, 44846505, 130950802, 111686700, 29344085, 66306470, 53237347, 29159698, 51997750, 104704597, 73677134, 65354862, 35062980, 132381845, 136253218, 13695527, 41098467, 134150754, 81329279, 3462214, 103098013, 101618478, 73666396, 81850066, 41113932, 107659765, 2807271, 48199331, 545835, 62310967, 88324283, 43018647, 48257459, 75353273, 19996754, 21998578, 14237935, 114462157, 109767779, 27060076, 18338051, 83731258, 96427540, 14589936, 10122134, 111471944, 13984675, 59755801, 67150427, 85336825, 83033951, 70341855, 93867432, 29358287, 112051752, 65997725, 138398138, 18895641, 39499815, 107439816, 115431955, 54826202, 91353636, 82684720, 61793762, 73944513, 125174536, 102953672, 107191236, 127341444, 71849144, 138855026, 80557452, 97546548, 6645584, 70508578, 85081765, 55594638, 98350597, 16644356, 56181329, 91293437, 127226456, 55874220, 129989769, 71178464, 126448239, 79738213, 100241790, 85334427, 132721307, 82503157, 122442592, 128722475, 142071240, 45105059, 130345856, 3330472, 7294884, 111589748, 29474025, 48929140, 1128316, 11128241, 39929109, 119753809, 2466767, 85173216, 56810140, 9419373, 72415197, 132103682, 61245342, 124626649, 84090218, 4986770, 7897221, 46636134, 2701136, 120631820, 17990835, 58248890, 91223812, 33091414, 2161605, 134786249, 129434137, 25325527, 143386604, 33302405, 126455684, 120122386, 5930642, 21990826, 110954904, 16781027, 71386655, 11348174, 98829353, 72625304, 96683160, 139974073, 142106841, 86954970, 110103827, 65423789, 2631602, 105603287, 146848282, 84983902, 60562463, 145872592, 37361011, 24023883, 90225385, 142166, 74164417, 6102827, 18501200, 141157056, 145792201, 61697354, 53125585, 91337797, 136715592, 135291459, 51501483, 24198380, 100230998, 36890207, 18825811, 98840225, 30259157, 126563818, 63672860, 56425977, 58462662, 4711040, 20109804, 75712690, 38791254, 104839035, 140497609, 23700692, 86941470, 93870026, 70030944, 55357545, 137059051, 63254338, 21928328, 3226799, 108926520, 62471826, 28430139, 14828538, 53082027, 102111315, 141889327, 47281494, 140700688, 49036265, 108030963, 113078800, 91445341, 5329118, 53672456, 50149857, 42438253, 62304473, 103368000, 90847289, 105622692, 50711058, 75262239, 125357018, 128829365, 26561911, 73790433, 117349177, 104807959, 137579220, 71637875, 23550740, 29665653, 71624135, 38105158, 122947610, 72110134]
+No 'depicts' statements for Wikimedia Commons Page ID: 134103880
+No 'depicts' statements for Wikimedia Commons Page ID: 140719939
+No 'depicts' statements for Wikimedia Commons Page ID: 31172936
+No 'depicts' statements for Wikimedia Commons Page ID: 122739121
+No 'depicts' statements for Wikimedia Commons Page ID: 51421559
+No data available for Wikimedia Commons Page ID: 96663883
+No 'depicts' statements for Wikimedia Commons Page ID: 30148459
+No 'depicts' statements for Wikimedia Commons Page ID: 119194655
+No 'depicts' statements for Wikimedia Commons Page ID: 84849905
+No 'depicts' statements for Wikimedia Commons Page ID: 34133256
+No 'depicts' statements for Wikimedia Commons Page ID: 15468582
+No 'depicts' statements for Wikimedia Commons Page ID: 53603997
+No 'depicts' statements for Wikimedia Commons Page ID: 66702862
+No 'depicts' statements for Wikimedia Commons Page ID: 29571695
+No 'depicts' statements for Wikimedia Commons Page ID: 11146934
+No 'depicts' statements for Wikimedia Commons Page ID: 136442774
+No 'depicts' statements for Wikimedia Commons Page ID: 21629138
+No 'depicts' statements for Wikimedia Commons Page ID: 41396073
+No 'depicts' statements for Wikimedia Commons Page ID: 44846505
+No 'depicts' statements for Wikimedia Commons Page ID: 130950802
+No 'depicts' statements for Wikimedia Commons Page ID: 29344085
+No 'depicts' statements for Wikimedia Commons Page ID: 66306470
+No 'depicts' statements for Wikimedia Commons Page ID: 53237347
+No 'depicts' statements for Wikimedia Commons Page ID: 29159698
+No 'depicts' statements for Wikimedia Commons Page ID: 51997750
+No 'depicts' statements for Wikimedia Commons Page ID: 104704597
+No 'depicts' statements for Wikimedia Commons Page ID: 73677134
+No 'depicts' statements for Wikimedia Commons Page ID: 65354862
+No 'depicts' statements for Wikimedia Commons Page ID: 35062980
+No 'depicts' statements for Wikimedia Commons Page ID: 13695527
+No 'depicts' statements for Wikimedia Commons Page ID: 41098467
+No 'depicts' statements for Wikimedia Commons Page ID: 134150754
+No data available for Wikimedia Commons Page ID: 3462214
+No 'depicts' statements for Wikimedia Commons Page ID: 103098013
+No 'depicts' statements for Wikimedia Commons Page ID: 101618478
+No 'depicts' statements for Wikimedia Commons Page ID: 73666396
+No 'depicts' statements for Wikimedia Commons Page ID: 81850066
+No 'depicts' statements for Wikimedia Commons Page ID: 41113932
+No 'depicts' statements for Wikimedia Commons Page ID: 107659765
+No 'depicts' statements for Wikimedia Commons Page ID: 2807271
+No 'depicts' statements for Wikimedia Commons Page ID: 48199331
+No 'depicts' statements for Wikimedia Commons Page ID: 62310967
+No 'depicts' statements for Wikimedia Commons Page ID: 88324283
+No 'depicts' statements for Wikimedia Commons Page ID: 43018647
+No 'depicts' statements for Wikimedia Commons Page ID: 48257459
+No 'depicts' statements for Wikimedia Commons Page ID: 75353273
+No 'depicts' statements for Wikimedia Commons Page ID: 19996754
+No 'depicts' statements for Wikimedia Commons Page ID: 21998578
+No 'depicts' statements for Wikimedia Commons Page ID: 14237935
+No 'depicts' statements for Wikimedia Commons Page ID: 109767779
+No 'depicts' statements for Wikimedia Commons Page ID: 27060076
+No 'depicts' statements for Wikimedia Commons Page ID: 18338051
+No 'depicts' statements for Wikimedia Commons Page ID: 96427540
+No 'depicts' statements for Wikimedia Commons Page ID: 14589936
+No 'depicts' statements for Wikimedia Commons Page ID: 10122134
+No 'depicts' statements for Wikimedia Commons Page ID: 111471944
+No 'depicts' statements for Wikimedia Commons Page ID: 13984675
+No 'depicts' statements for Wikimedia Commons Page ID: 59755801
+No 'depicts' statements for Wikimedia Commons Page ID: 67150427
+No 'depicts' statements for Wikimedia Commons Page ID: 83033951
+No 'depicts' statements for Wikimedia Commons Page ID: 70341855
+No 'depicts' statements for Wikimedia Commons Page ID: 93867432
+No 'depicts' statements for Wikimedia Commons Page ID: 29358287
+No 'depicts' statements for Wikimedia Commons Page ID: 112051752
+No 'depicts' statements for Wikimedia Commons Page ID: 65997725
+No 'depicts' statements for Wikimedia Commons Page ID: 138398138
+No 'depicts' statements for Wikimedia Commons Page ID: 18895641
+No 'depicts' statements for Wikimedia Commons Page ID: 39499815
+No 'depicts' statements for Wikimedia Commons Page ID: 107439816
+No 'depicts' statements for Wikimedia Commons Page ID: 115431955
+No 'depicts' statements for Wikimedia Commons Page ID: 54826202
+No 'depicts' statements for Wikimedia Commons Page ID: 82684720
+No 'depicts' statements for Wikimedia Commons Page ID: 61793762
+No 'depicts' statements for Wikimedia Commons Page ID: 73944513
+No 'depicts' statements for Wikimedia Commons Page ID: 125174536
+No 'depicts' statements for Wikimedia Commons Page ID: 102953672
+No 'depicts' statements for Wikimedia Commons Page ID: 107191236
+No data available for Wikimedia Commons Page ID: 127341444
+No 'depicts' statements for Wikimedia Commons Page ID: 71849144
+No 'depicts' statements for Wikimedia Commons Page ID: 80557452
+No 'depicts' statements for Wikimedia Commons Page ID: 6645584
+No 'depicts' statements for Wikimedia Commons Page ID: 70508578
+No 'depicts' statements for Wikimedia Commons Page ID: 85081765
+No 'depicts' statements for Wikimedia Commons Page ID: 55594638
+No data available for Wikimedia Commons Page ID: 98350597
+No 'depicts' statements for Wikimedia Commons Page ID: 16644356
+No data available for Wikimedia Commons Page ID: 56181329
+No data available for Wikimedia Commons Page ID: 127226456
+No 'depicts' statements for Wikimedia Commons Page ID: 55874220
+No 'depicts' statements for Wikimedia Commons Page ID: 129989769
+No 'depicts' statements for Wikimedia Commons Page ID: 71178464
+No 'depicts' statements for Wikimedia Commons Page ID: 126448239
+No 'depicts' statements for Wikimedia Commons Page ID: 100241790
+No 'depicts' statements for Wikimedia Commons Page ID: 85334427
+No 'depicts' statements for Wikimedia Commons Page ID: 132721307
+No depicts label found for Q47538679
+No 'depicts' statements for Wikimedia Commons Page ID: 122442592
+No 'depicts' statements for Wikimedia Commons Page ID: 128722475
+No 'depicts' statements for Wikimedia Commons Page ID: 142071240
+No data available for Wikimedia Commons Page ID: 45105059
+No data available for Wikimedia Commons Page ID: 3330472
+No 'depicts' statements for Wikimedia Commons Page ID: 7294884
+No 'depicts' statements for Wikimedia Commons Page ID: 111589748
+No 'depicts' statements for Wikimedia Commons Page ID: 29474025
+No 'depicts' statements for Wikimedia Commons Page ID: 48929140
+No data available for Wikimedia Commons Page ID: 1128316
+No 'depicts' statements for Wikimedia Commons Page ID: 11128241
+No 'depicts' statements for Wikimedia Commons Page ID: 39929109
+No 'depicts' statements for Wikimedia Commons Page ID: 119753809
+No data available for Wikimedia Commons Page ID: 2466767
+No 'depicts' statements for Wikimedia Commons Page ID: 85173216
+No 'depicts' statements for Wikimedia Commons Page ID: 56810140
+No 'depicts' statements for Wikimedia Commons Page ID: 9419373
+No data available for Wikimedia Commons Page ID: 72415197
+No 'depicts' statements for Wikimedia Commons Page ID: 61245342
+No 'depicts' statements for Wikimedia Commons Page ID: 84090218
+No 'depicts' statements for Wikimedia Commons Page ID: 4986770
+No 'depicts' statements for Wikimedia Commons Page ID: 7897221
+No 'depicts' statements for Wikimedia Commons Page ID: 46636134
+No data available for Wikimedia Commons Page ID: 2701136
+No 'depicts' statements for Wikimedia Commons Page ID: 120631820
+No data available for Wikimedia Commons Page ID: 17990835
+No 'depicts' statements for Wikimedia Commons Page ID: 58248890
+No 'depicts' statements for Wikimedia Commons Page ID: 2161605
+No 'depicts' statements for Wikimedia Commons Page ID: 134786249
+No 'depicts' statements for Wikimedia Commons Page ID: 129434137
+No 'depicts' statements for Wikimedia Commons Page ID: 25325527
+No 'depicts' statements for Wikimedia Commons Page ID: 33302405
+No 'depicts' statements for Wikimedia Commons Page ID: 126455684
+No 'depicts' statements for Wikimedia Commons Page ID: 120122386
+No data available for Wikimedia Commons Page ID: 5930642
+MADOFF DATAFRAME
+    wiki_commons_id                                        wiki_data_q                                            depicts
+0        143623002                    [Q5004679, Q3352369, Q28769418]                         [path, footpath, Halstead]
+1         94232833                                        [Q66813504]                                   [Castro Vicente]
+2        120027611                              [Q106943711, Q623270]                    [Jannick Engel, horizontal bar]
+3         84387143                                       [Q122168484]        [Bauern-Demonstration in Berlin 2019-11-26]
+4        111686700                                         [Q5544161]                           [Alfred Gustaf Ahlqvist]
+5        132381845  [Q1137997, Q483453, Q283, Q15974921, Q174782, ...  [Syntagma Square, fountain, water, water jet, ...
+6        136253218                                [Q284688, Q1807270]                                     [Penny, Lauda]
+7         81329279                                         [Q2655959]                                      [Igor Gamula]
+8           545835                                        [Q41333149]                              [Karl Wilhelm Ramler]
+9        114462157                                          [Q860623]                                            [image]
+10        83731258             [Q510487, Q287, Q638, Q47071, Q758657]  [fiddle, wood, music, brown, Auckland War Memo...
+11        85336825                               [Q11553985, Q862746]                        [Kawazu Seven Falls, joint]
+12        91353636                                          [Q737045]                                         [Te Kooti]
+13       138855026                                       [Q110434857]                                         [Wikibase]
+14        97546548                                        [Q52222565]                     [John Heathcoat (1783 - 1861)]
+15        91293437                                  [Q93351, Q166564]                                    [Vichy, sunset]
+16        79738213                                        [Q64515572]                             [Cyrus and Frank Taft]
+17        82503157                                        [Q47538679]                                             [None]
+18       130345856   [Q93352, Q55075651, Q23442, Q8063, Q207326, Q22]    [coast, upland, island, rock, summit, Scotland]
+19       132103682               [Q5004679, Q3947, Q628179, Q3784169]                  [path, house, trail, Mansel Lacy]
+20       124626649                         [Q188509, Q79007, Q918975]                         [suburb, street, Kirklees]
+21        91223812            [Q2296351, Q4323994, Q503958, Q5182344]  [bumper sticker, traffic, streetlight, Crash B...
+22        33091414                                           [Q10819]                                    [Mariano Rajoy]
+23       143386604                    [Q532, Q3947, Q34442, Q2684761]    [village, house, road, Mayfield and Five Ashes]
+24        21990826                                         [Q2904388]                            [Reading Power Station]
+--------
+
+Trying Commons ID Batch:
+[95186153, 89139734, 39509048, 87455022, 50405458, 109263764, 71673618, 9516231, 58332334, 103716793, 70620105, 25698335, 56031095, 69142272, 66717828, 16154691, 12071268, 31318706, 130665496, 5456972, 106740101, 132620331, 77315071, 137600232, 83835983, 29887049, 137786412, 78781909, 122156652, 47211104, 16542966, 57147293, 119483954, 136870358, 74257181, 62649176, 29076495, 60264179, 122216916, 25127644, 120430830, 6667688, 57903697, 59319635, 59855813, 48899056, 111398914, 52634505, 103314224, 119539354]
+No 'depicts' statements for Wikimedia Commons Page ID: 95186153
+Row: {'wiki_commons_id': 89139734, 'wiki_data_q': ['Q14659'], 'depicts': ['coat of arms']}
+Updated DataFrame:
+  wiki_commons_id wiki_data_q         depicts
+0        89139734    [Q14659]  [coat of arms]
+No 'depicts' statements for Wikimedia Commons Page ID: 39509048
+No 'depicts' statements for Wikimedia Commons Page ID: 87455022
+No 'depicts' statements for Wikimedia Commons Page ID: 50405458
+Row: {'wiki_commons_id': 109263764, 'wiki_data_q': ['Q3947', 'Q655686', 'Q179424'], 'depicts': ['house', 'commercial building', 'County Donegal']}
+Updated DataFrame:
+  wiki_commons_id                wiki_data_q                                       depicts
+0        89139734                   [Q14659]                                [coat of arms]
+1       109263764  [Q3947, Q655686, Q179424]  [house, commercial building, County Donegal]
+No 'depicts' statements for Wikimedia Commons Page ID: 71673618
+No 'depicts' statements for Wikimedia Commons Page ID: 9516231
+No 'depicts' statements for Wikimedia Commons Page ID: 58332334
+No 'depicts' statements for Wikimedia Commons Page ID: 103716793
+No 'depicts' statements for Wikimedia Commons Page ID: 70620105
+No 'depicts' statements for Wikimedia Commons Page ID: 25698335
+No 'depicts' statements for Wikimedia Commons Page ID: 56031095
+Row: {'wiki_commons_id': 69142272, 'wiki_data_q': ['Q7838611'], 'depicts': ['Trenton Transit Center']}
+Updated DataFrame:
+  wiki_commons_id                wiki_data_q                                       depicts
+0        89139734                   [Q14659]                                [coat of arms]
+1       109263764  [Q3947, Q655686, Q179424]  [house, commercial building, County Donegal]
+2        69142272                 [Q7838611]                      [Trenton Transit Center]
+No 'depicts' statements for Wikimedia Commons Page ID: 66717828
+No 'depicts' statements for Wikimedia Commons Page ID: 16154691
+Row: {'wiki_commons_id': 12071268, 'wiki_data_q': ['Q290525'], 'depicts': ['Marjorie Carpréaux']}
+Updated DataFrame:
+  wiki_commons_id                wiki_data_q                                       depicts
+0        89139734                   [Q14659]                                [coat of arms]
+1       109263764  [Q3947, Q655686, Q179424]  [house, commercial building, County Donegal]
+2        69142272                 [Q7838611]                      [Trenton Transit Center]
+3        12071268                  [Q290525]                          [Marjorie Carpréaux]
+No 'depicts' statements for Wikimedia Commons Page ID: 31318706
+No 'depicts' statements for Wikimedia Commons Page ID: 130665496
+No 'depicts' statements for Wikimedia Commons Page ID: 5456972
+Row: {'wiki_commons_id': 106740101, 'wiki_data_q': ['Q5004679', 'Q1924474'], 'depicts': ['path', 'Dartmoor Forest']}
+Updated DataFrame:
+  wiki_commons_id                wiki_data_q                                       depicts
+0        89139734                   [Q14659]                                [coat of arms]
+1       109263764  [Q3947, Q655686, Q179424]  [house, commercial building, County Donegal]
+2        69142272                 [Q7838611]                      [Trenton Transit Center]
+3        12071268                  [Q290525]                          [Marjorie Carpréaux]
+4       106740101       [Q5004679, Q1924474]                       [path, Dartmoor Forest]
+STANFORD DATAFRAME
+   wiki_commons_id                wiki_data_q                                       depicts
+0        89139734                   [Q14659]                                [coat of arms]
+1       109263764  [Q3947, Q655686, Q179424]  [house, commercial building, County Donegal]
+2        69142272                 [Q7838611]                      [Trenton Transit Center]
+3        12071268                  [Q290525]                          [Marjorie Carpréaux]
+4       106740101       [Q5004679, Q1924474]                       [path, Dartmoor Forest]
+----------
+>>> ^D
+thammons@toms-MacBook-Air CAPSTONE % clear
+
+thammons@toms-MacBook-Air CAPSTONE % python3
+Python 3.12.2 (main, Feb 20 2024, 04:06:49) [Clang 14.0.0 (clang-1400.0.29.202)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from how_to_use_create_df import *
+No 'depicts' statements for Wikimedia Commons Page ID: 118938928
+EXAMPLES - WIKIFREAK DATAFRAMES
+
+Trying Commons ID Batch:
+[42589166, 137580600, 1824719, 102963672, 27648095, 3801881, 136038137, 77474847, 92731070, 27641990, 131338975, 53046199, 72206799, 26565694, 12809263, 70408455, 93413981, 62119618, 10203529, 107796276, 124411946, 136410160, 124251567, 22224289, 103481407, 118116607, 65549350, 8530390, 66095907, 142665629, 78746957, 39310108, 86821170, 17118019, 128215744, 91945718, 114973003, 114944304, 117491860, 9793749, 61578317, 22147755, 115165220, 57340348, 111380840, 88871024, 115998367, 13111669, 113776324, 4638545, 57848820, 49228716, 119506086, 10083647, 137615274, 20315495, 96624689, 53742004, 123754347, 136506679, 12983355, 2210193, 117971126, 65312483, 31175919, 25887625, 113108187, 91474771, 13622853, 47692586, 127986577, 127669309, 126375036, 97188576, 48421423, 35761434, 8093060, 61582770, 146363112, 16557899, 113079274, 133362926, 124619246, 19203835, 67085978, 59780252, 119017329, 63364254, 6195819, 44085255, 45635009, 110145418, 122714196, 129645839, 138317309, 66076717, 94775711, 41328691, 61068884, 24811877, 109505015, 137951232, 81445666, 105100607, 41735346, 146795270, 132984387, 54298424, 3345699, 84237530, 24298995, 87076842, 102520475, 482566, 110519747, 13982543, 130727511, 80806573, 50428560, 9795143, 101543420, 103889375, 101315396, 39708511, 71414706, 97680582, 47446243, 3329272, 74183397, 140326417, 98064897, 73787018, 95826467, 84245578, 121540591, 73237748, 32934463, 103351214, 65150323, 133362858, 69569044, 1944279, 117274888, 61026267, 86833811, 146720313, 136205708, 120976933, 29647947, 135864690]
+No 'depicts' statements for Wikimedia Commons Page ID: 42589166
+No data available for Wikimedia Commons Page ID: 137580600
+No 'depicts' statements for Wikimedia Commons Page ID: 1824719
+No 'depicts' statements for Wikimedia Commons Page ID: 102963672
+No 'depicts' statements for Wikimedia Commons Page ID: 27648095
+No 'depicts' statements for Wikimedia Commons Page ID: 3801881
+No 'depicts' statements for Wikimedia Commons Page ID: 92731070
+No 'depicts' statements for Wikimedia Commons Page ID: 27641990
+No 'depicts' statements for Wikimedia Commons Page ID: 131338975
+No 'depicts' statements for Wikimedia Commons Page ID: 53046199
+No 'depicts' statements for Wikimedia Commons Page ID: 72206799
+No 'depicts' statements for Wikimedia Commons Page ID: 26565694
+No 'depicts' statements for Wikimedia Commons Page ID: 12809263
+No 'depicts' statements for Wikimedia Commons Page ID: 70408455
+No data available for Wikimedia Commons Page ID: 93413981
+No 'depicts' statements for Wikimedia Commons Page ID: 62119618
+No data available for Wikimedia Commons Page ID: 10203529
+No 'depicts' statements for Wikimedia Commons Page ID: 107796276
+No 'depicts' statements for Wikimedia Commons Page ID: 124411946
+No 'depicts' statements for Wikimedia Commons Page ID: 124251567
+No 'depicts' statements for Wikimedia Commons Page ID: 22224289
+No 'depicts' statements for Wikimedia Commons Page ID: 103481407
+No data available for Wikimedia Commons Page ID: 118116607
+No 'depicts' statements for Wikimedia Commons Page ID: 65549350
+No 'depicts' statements for Wikimedia Commons Page ID: 8530390
+No 'depicts' statements for Wikimedia Commons Page ID: 66095907
+No 'depicts' statements for Wikimedia Commons Page ID: 142665629
+No 'depicts' statements for Wikimedia Commons Page ID: 78746957
+No 'depicts' statements for Wikimedia Commons Page ID: 39310108
+No 'depicts' statements for Wikimedia Commons Page ID: 86821170
+No depicts label found for Q116459567
+No 'depicts' statements for Wikimedia Commons Page ID: 114944304
+No 'depicts' statements for Wikimedia Commons Page ID: 117491860
+No 'depicts' statements for Wikimedia Commons Page ID: 61578317
+No 'depicts' statements for Wikimedia Commons Page ID: 22147755
+No 'depicts' statements for Wikimedia Commons Page ID: 115165220
+No 'depicts' statements for Wikimedia Commons Page ID: 57340348
+No data available for Wikimedia Commons Page ID: 88871024
+No 'depicts' statements for Wikimedia Commons Page ID: 13111669
+No data available for Wikimedia Commons Page ID: 113776324
+No 'depicts' statements for Wikimedia Commons Page ID: 57848820
+No 'depicts' statements for Wikimedia Commons Page ID: 49228716
+No data available for Wikimedia Commons Page ID: 119506086
+No 'depicts' statements for Wikimedia Commons Page ID: 137615274
+No 'depicts' statements for Wikimedia Commons Page ID: 20315495
+No 'depicts' statements for Wikimedia Commons Page ID: 96624689
+No 'depicts' statements for Wikimedia Commons Page ID: 123754347
+No 'depicts' statements for Wikimedia Commons Page ID: 136506679
+No 'depicts' statements for Wikimedia Commons Page ID: 12983355
+No 'depicts' statements for Wikimedia Commons Page ID: 2210193
+No 'depicts' statements for Wikimedia Commons Page ID: 117971126
+No 'depicts' statements for Wikimedia Commons Page ID: 65312483
+No 'depicts' statements for Wikimedia Commons Page ID: 31175919
+No 'depicts' statements for Wikimedia Commons Page ID: 25887625
+No 'depicts' statements for Wikimedia Commons Page ID: 113108187
+No data available for Wikimedia Commons Page ID: 91474771
+No 'depicts' statements for Wikimedia Commons Page ID: 13622853
+No 'depicts' statements for Wikimedia Commons Page ID: 47692586
+No 'depicts' statements for Wikimedia Commons Page ID: 127669309
+No 'depicts' statements for Wikimedia Commons Page ID: 126375036
+No 'depicts' statements for Wikimedia Commons Page ID: 97188576
+
+SBF DATAFRAME
+    wiki_commons_id                           wiki_data_q                                            depicts
+0        136038137        [Q1081138, Q193475, Q68816562]                  [historic site, menhir, Stenness]
+1         77474847                             [Q346785]                                        [Dick Dale]
+2        136410160          [Q355304, Q3241565, Q208201]  [watercourse, woodland, London Borough of Brom...
+3         17118019                            [Q1324130]                                         [roadkill]
+4        128215744                          [Q116459567]                                             [None]
+5         91945718                 [Q1358183, Q97001916]                   [Kuma River, 2020 Kyushu floods]
+6        114973003                            [Q4976676]                                  [Cornelia Jakobs]
+7          9793749                           [Q16648220]                                  [Kelsey Michaels]
+8        111380840                          [Q109408016]                               [Enchiridium daidai]
+9        115998367              [Q5758462, Q3868, Q2120]       [Copiapó Cathedral, Copiapó, Atacama Region]
+10         4638545                              [Q43144]                                      [Sarah Palin]
+11        10083647                             [Q536131]                              [King Street Station]
+12        53742004                          [Q110154955]                     [Iglesia de Santiago el Mayor]
+13       127986577  [Q5004679, Q11451, Q53060, Q3404436]                [path, agriculture, gate, Llangors]
+14        48421423                  [Q3030348, Q1229098]      [World of Color, Disney California Adventure]
+-------
+
+Trying Commons ID Batch:
+[116237817, 96203893, 40904249, 61670377, 87050891, 43596756, 2197977, 34360465, 19784950, 140642822, 104398470, 62966794, 71801686, 88041129, 134455577, 112752707, 140601445, 88809321, 137470628, 34403853, 44569088, 121127041, 95878410, 37380484, 145927638, 101497738, 116335008, 103847101, 120257247, 69209162, 145342005, 24367483, 143138628, 37467256, 119861428, 122044498, 14781569, 27939578, 62160404, 139456464, 73366225, 99312608, 91869971, 122625606, 7516826, 41404530, 2999068, 113244022, 132780193, 12851944, 89365058, 83167606, 113620723, 116619084, 116969613, 99950891, 139475175, 79952302, 22733578, 46477224, 126195295, 143424690, 92009742, 130260021, 50245944, 31807192, 28284497, 109297878, 61802781, 124402992, 107263264, 58770540, 75938075, 25700639, 118724875, 66996620, 38817406, 146116481, 127977671, 88348193, 141868557, 118126922, 89933317, 9382344, 79683190, 85976270, 19637761, 37956140, 99135564, 129575104, 98646962, 48008886, 140431382, 17424204, 42670546, 48711305, 12988954, 103016945, 107504906, 121565875, 66443416, 60485354, 123980990, 126660523, 83915042, 80305044, 29623456, 68948712, 19591816, 133343432, 84800800, 63582390, 138552232, 94902454, 128346649, 62139440, 96884929, 65829974, 98586657, 78040138, 36172759, 20752392, 17252548, 115201002, 132571997, 98905671, 139093327, 36828563, 139639963, 13712286, 43660052, 90383151, 99699257, 94693172, 22464420, 74482693, 124506506, 133436681, 60923048, 15908881, 121627665, 54890372, 31186978, 17312797, 45871938, 94084843, 42136229, 117637749, 12485420, 137166574, 43352413, 88295028, 20337645, 53745000, 137366842, 14053702, 119403280, 51849698, 107144050, 100272744, 30472119, 67143356, 87254459, 13010092, 95205707, 117699179, 14402827, 24261389, 105211867, 5269978, 93574832, 1171350, 95315912, 28280205, 28579203, 106905021, 119256305, 117475889, 14316303, 28723983, 45816426, 73696337, 135114410, 91341551, 108948328, 62150892, 111109462, 113438717, 25006601, 144094062, 23003149, 41608831, 77188460, 8258797, 110031201, 141163951, 89767885, 107490063, 40958111, 132694388, 104001136, 49525339, 110759843, 2806645, 8662284, 19949855, 91809758, 58567182, 96292244, 25182521, 122380910, 55508990, 132414673, 91909113, 75764057, 77359447, 111240187, 31337255, 65220931, 67188239, 62548413, 47925344, 119099768, 14041511, 12828103, 71697086, 110454972, 115115891, 107555989, 55635657, 114706468, 80190653, 146750013, 130557589, 27618338, 26468464, 86004254, 135546812, 42280757, 144343228, 96132187, 39357279, 68269868, 122901850, 90073217, 121590756, 71331626, 48289055, 111073656, 4009653]
+No 'depicts' statements for Wikimedia Commons Page ID: 116237817
+No 'depicts' statements for Wikimedia Commons Page ID: 96203893
+No 'depicts' statements for Wikimedia Commons Page ID: 61670377
+No 'depicts' statements for Wikimedia Commons Page ID: 87050891
+No 'depicts' statements for Wikimedia Commons Page ID: 43596756
+No 'depicts' statements for Wikimedia Commons Page ID: 2197977
+No 'depicts' statements for Wikimedia Commons Page ID: 19784950
+No data available for Wikimedia Commons Page ID: 104398470
+No 'depicts' statements for Wikimedia Commons Page ID: 62966794
+No 'depicts' statements for Wikimedia Commons Page ID: 71801686
+No 'depicts' statements for Wikimedia Commons Page ID: 88041129
+No 'depicts' statements for Wikimedia Commons Page ID: 134455577
+No 'depicts' statements for Wikimedia Commons Page ID: 112752707
+No 'depicts' statements for Wikimedia Commons Page ID: 140601445
+ No data available for Wikimedia Commons Page ID: 137470628
+No 'depicts' statements for Wikimedia Commons Page ID: 44569088
+No 'depicts' statements for Wikimedia Commons Page ID: 121127041
+No 'depicts' statements for Wikimedia Commons Page ID: 37380484
+No 'depicts' statements for Wikimedia Commons Page ID: 145927638
+No 'depicts' statements for Wikimedia Commons Page ID: 101497738
+No 'depicts' statements for Wikimedia Commons Page ID: 116335008
+No 'depicts' statements for Wikimedia Commons Page ID: 120257247
+No data available for Wikimedia Commons Page ID: 145342005
+No 'depicts' statements for Wikimedia Commons Page ID: 24367483
+No data available for Wikimedia Commons Page ID: 143138628
+No 'depicts' statements for Wikimedia Commons Page ID: 37467256
+No 'depicts' statements for Wikimedia Commons Page ID: 119861428
+No 'depicts' statements for Wikimedia Commons Page ID: 122044498
+No 'depicts' statements for Wikimedia Commons Page ID: 14781569
+No 'depicts' statements for Wikimedia Commons Page ID: 27939578
+No 'depicts' statements for Wikimedia Commons Page ID: 62160404
+No 'depicts' statements for Wikimedia Commons Page ID: 139456464
+No data available for Wikimedia Commons Page ID: 122625606
+No 'depicts' statements for Wikimedia Commons Page ID: 7516826
+No data available for Wikimedia Commons Page ID: 41404530
+No 'depicts' statements for Wikimedia Commons Page ID: 2999068
+No 'depicts' statements for Wikimedia Commons Page ID: 113244022
+No 'depicts' statements for Wikimedia Commons Page ID: 132780193
+No data available for Wikimedia Commons Page ID: 12851944
+No 'depicts' statements for Wikimedia Commons Page ID: 89365058
+No 'depicts' statements for Wikimedia Commons Page ID: 83167606
+No 'depicts' statements for Wikimedia Commons Page ID: 113620723
+No 'depicts' statements for Wikimedia Commons Page ID: 116619084
+No 'depicts' statements for Wikimedia Commons Page ID: 116969613
+No 'depicts' statements for Wikimedia Commons Page ID: 99950891
+No 'depicts' statements for Wikimedia Commons Page ID: 139475175
+No 'depicts' statements for Wikimedia Commons Page ID: 79952302
+No 'depicts' statements for Wikimedia Commons Page ID: 22733578
+No 'depicts' statements for Wikimedia Commons Page ID: 46477224
+No 'depicts' statements for Wikimedia Commons Page ID: 126195295
+No 'depicts' statements for Wikimedia Commons Page ID: 143424690
+No 'depicts' statements for Wikimedia Commons Page ID: 92009742
+No 'depicts' statements for Wikimedia Commons Page ID: 130260021
+No 'depicts' statements for Wikimedia Commons Page ID: 50245944
+No 'depicts' statements for Wikimedia Commons Page ID: 31807192
+No data available for Wikimedia Commons Page ID: 28284497
+No 'depicts' statements for Wikimedia Commons Page ID: 109297878
+No 'depicts' statements for Wikimedia Commons Page ID: 61802781
+No 'depicts' statements for Wikimedia Commons Page ID: 124402992
+No 'depicts' statements for Wikimedia Commons Page ID: 107263264
+No 'depicts' statements for Wikimedia Commons Page ID: 58770540
+No 'depicts' statements for Wikimedia Commons Page ID: 75938075
+No 'depicts' statements for Wikimedia Commons Page ID: 25700639
+No 'depicts' statements for Wikimedia Commons Page ID: 38817406
+No 'depicts' statements for Wikimedia Commons Page ID: 146116481
+No 'depicts' statements for Wikimedia Commons Page ID: 127977671
+No 'depicts' statements for Wikimedia Commons Page ID: 141868557
+No 'depicts' statements for Wikimedia Commons Page ID: 118126922
+No 'depicts' statements for Wikimedia Commons Page ID: 89933317
+No 'depicts' statements for Wikimedia Commons Page ID: 9382344
+No 'depicts' statements for Wikimedia Commons Page ID: 79683190
+No 'depicts' statements for Wikimedia Commons Page ID: 85976270
+No data available for Wikimedia Commons Page ID: 19637761
+No data available for Wikimedia Commons Page ID: 37956140
+No data available for Wikimedia Commons Page ID: 99135564
+No 'depicts' statements for Wikimedia Commons Page ID: 129575104
+No data available for Wikimedia Commons Page ID: 98646962
+No 'depicts' statements for Wikimedia Commons Page ID: 48008886
+No data available for Wikimedia Commons Page ID: 140431382
+No 'depicts' statements for Wikimedia Commons Page ID: 42670546
+No 'depicts' statements for Wikimedia Commons Page ID: 48711305
+No 'depicts' statements for Wikimedia Commons Page ID: 12988954
+No 'depicts' statements for Wikimedia Commons Page ID: 103016945
+No 'depicts' statements for Wikimedia Commons Page ID: 107504906
+No 'depicts' statements for Wikimedia Commons Page ID: 121565875
+No 'depicts' statements for Wikimedia Commons Page ID: 66443416
+No 'depicts' statements for Wikimedia Commons Page ID: 60485354
+No 'depicts' statements for Wikimedia Commons Page ID: 123980990
+No 'depicts' statements for Wikimedia Commons Page ID: 126660523
+No 'depicts' statements for Wikimedia Commons Page ID: 83915042
+No data available for Wikimedia Commons Page ID: 80305044
+No 'depicts' statements for Wikimedia Commons Page ID: 29623456
+No 'depicts' statements for Wikimedia Commons Page ID: 68948712
+No 'depicts' statements for Wikimedia Commons Page ID: 19591816
+No data available for Wikimedia Commons Page ID: 133343432
+No 'depicts' statements for Wikimedia Commons Page ID: 84800800
+No 'depicts' statements for Wikimedia Commons Page ID: 63582390
+No 'depicts' statements for Wikimedia Commons Page ID: 138552232
+No 'depicts' statements for Wikimedia Commons Page ID: 94902454
+No 'depicts' statements for Wikimedia Commons Page ID: 128346649
+No 'depicts' statements for Wikimedia Commons Page ID: 62139440
+No 'depicts' statements for Wikimedia Commons Page ID: 96884929
+No 'depicts' statements for Wikimedia Commons Page ID: 65829974
+No 'depicts' statements for Wikimedia Commons Page ID: 98586657
+No 'depicts' statements for Wikimedia Commons Page ID: 78040138
+No 'depicts' statements for Wikimedia Commons Page ID: 20752392
+No 'depicts' statements for Wikimedia Commons Page ID: 17252548
+No 'depicts' statements for Wikimedia Commons Page ID: 115201002
+No 'depicts' statements for Wikimedia Commons Page ID: 98905671
+No data available for Wikimedia Commons Page ID: 139093327
+No 'depicts' statements for Wikimedia Commons Page ID: 36828563
+No data available for Wikimedia Commons Page ID: 139639963
+No 'depicts' statements for Wikimedia Commons Page ID: 13712286
+No 'depicts' statements for Wikimedia Commons Page ID: 43660052
+No 'depicts' statements for Wikimedia Commons Page ID: 90383151
+No 'depicts' statements for Wikimedia Commons Page ID: 99699257
+No 'depicts' statements for Wikimedia Commons Page ID: 94693172
+No 'depicts' statements for Wikimedia Commons Page ID: 22464420
+No 'depicts' statements for Wikimedia Commons Page ID: 74482693
+No 'depicts' statements for Wikimedia Commons Page ID: 124506506
+No 'depicts' statements for Wikimedia Commons Page ID: 133436681
+No 'depicts' statements for Wikimedia Commons Page ID: 60923048
+No 'depicts' statements for Wikimedia Commons Page ID: 15908881
+No 'depicts' statements for Wikimedia Commons Page ID: 54890372
+No 'depicts' statements for Wikimedia Commons Page ID: 31186978
+No 'depicts' statements for Wikimedia Commons Page ID: 17312797
+No 'depicts' statements for Wikimedia Commons Page ID: 45871938
+No 'depicts' statements for Wikimedia Commons Page ID: 42136229
+No 'depicts' statements for Wikimedia Commons Page ID: 117637749
+No 'depicts' statements for Wikimedia Commons Page ID: 12485420
+No 'depicts' statements for Wikimedia Commons Page ID: 137166574
+No 'depicts' statements for Wikimedia Commons Page ID: 43352413
+No 'depicts' statements for Wikimedia Commons Page ID: 88295028
+No 'depicts' statements for Wikimedia Commons Page ID: 20337645
+No 'depicts' statements for Wikimedia Commons Page ID: 53745000
+No 'depicts' statements for Wikimedia Commons Page ID: 14053702
+No 'depicts' statements for Wikimedia Commons Page ID: 119403280
+No 'depicts' statements for Wikimedia Commons Page ID: 107144050
+No 'depicts' statements for Wikimedia Commons Page ID: 100272744
+No 'depicts' statements for Wikimedia Commons Page ID: 30472119
+No 'depicts' statements for Wikimedia Commons Page ID: 67143356
+No 'depicts' statements for Wikimedia Commons Page ID: 13010092
+No 'depicts' statements for Wikimedia Commons Page ID: 95205707
+No 'depicts' statements for Wikimedia Commons Page ID: 117699179
+No 'depicts' statements for Wikimedia Commons Page ID: 14402827
+No 'depicts' statements for Wikimedia Commons Page ID: 24261389
+No 'depicts' statements for Wikimedia Commons Page ID: 105211867
+No 'depicts' statements for Wikimedia Commons Page ID: 5269978
+No data available for Wikimedia Commons Page ID: 93574832
+No 'depicts' statements for Wikimedia Commons Page ID: 1171350
+No 'depicts' statements for Wikimedia Commons Page ID: 95315912
+No 'depicts' statements for Wikimedia Commons Page ID: 28280205
+No 'depicts' statements for Wikimedia Commons Page ID: 28579203
+No 'depicts' statements for Wikimedia Commons Page ID: 106905021
+No 'depicts' statements for Wikimedia Commons Page ID: 119256305
+No 'depicts' statements for Wikimedia Commons Page ID: 117475889
+No 'depicts' statements for Wikimedia Commons Page ID: 14316303
+No 'depicts' statements for Wikimedia Commons Page ID: 28723983
+No 'depicts' statements for Wikimedia Commons Page ID: 45816426
+No 'depicts' statements for Wikimedia Commons Page ID: 73696337
+No 'depicts' statements for Wikimedia Commons Page ID: 135114410
+No 'depicts' statements for Wikimedia Commons Page ID: 91341551
+No 'depicts' statements for Wikimedia Commons Page ID: 108948328
+No depicts label found for Q42949526
+No 'depicts' statements for Wikimedia Commons Page ID: 111109462
+No 'depicts' statements for Wikimedia Commons Page ID: 113438717
+No 'depicts' statements for Wikimedia Commons Page ID: 25006601
+No 'depicts' statements for Wikimedia Commons Page ID: 144094062
+No 'depicts' statements for Wikimedia Commons Page ID: 41608831
+No 'depicts' statements for Wikimedia Commons Page ID: 77188460
+No 'depicts' statements for Wikimedia Commons Page ID: 8258797
+No 'depicts' statements for Wikimedia Commons Page ID: 110031201
+No 'depicts' statements for Wikimedia Commons Page ID: 141163951
+No 'depicts' statements for Wikimedia Commons Page ID: 89767885
+No 'depicts' statements for Wikimedia Commons Page ID: 107490063
+No 'depicts' statements for Wikimedia Commons Page ID: 40958111
+No 'depicts' statements for Wikimedia Commons Page ID: 132694388
+
+MADOFF DATAFRAME
+    wiki_commons_id                                        wiki_data_q                                            depicts
+0         40904249                                       [Q112335728]                                [Grave of Périgord]
+1         34360465                                          [Q508144]                                   [Elsie Ferguson]
+2        140642822       [Q93352, Q18691599, Q47053, Q40080, Q207257]  [coast, military facility, estuary, beach, Eas...
+3         88809321                        [Q212198, Q33163, Q1138737]                                 [pub, stool, lamp]
+4         34403853                                        [Q11866366]                                   [Jere Dahlström]
+5         95878410                                        [Q99926980]  [The Town and Country Planning (Industrial Dev...
+6        103847101                              [Q2144320, Q68814947]                   [overhead power line, Balmaghie]
+7         69209162                                          [Q283111]                               [Professor Moriarty]
+8         73366225                                         [Q5955713]                                [Sheikh-Zahed Tomb]
+9         99312608                                          [Q159572]                                  [Wittstock/Dosse]
+10        91869971                                          [Q152946]                                [Volkswagen Beetle]
+11       118724875                                         [Q1689380]                                     [Jimmy John's]
+12        66996620                                         [Q4941210]                             [Bonaventure Cemetery]
+13        88348193                                          [Q751876]                                          [château]
+14        17424204                                          [Q522574]                                  [Henriette Smeby]
+15        36172759                                         [Q1535905]                                      [Isla Holbox]
+16       132571997                                        [Q30090683]                              [Japanese curry rice]
+17       121627665               [Q171043, Q23002098, Q93301, Q52912]  [steam locomotive, SJ L (2nd), locomotive, Sta...
+18        94084843                                         [Q3581560]                 [Église Saint-Georges de Compains]
+19       137366842                              [Q692104, Q122119821]                       [parallel bars, Till Jabine]
+20        51849698  [Q3517561, Q245117, Q842402, Q9089, Q2820111, ...  [Hoysaleswara Temple, relief sculpture, Hindu ...
+21        87254459                                 [Q55996392, Q7735]                           [Lou Massenberg, diving]
+22        62150892                                        [Q42949526]                                             [None]
+23        23003149                                        [Q10725985]                                   [Äppelbo Church]
+24       104001136                                 [Q16970, Q1520344]                      [church building, Stevington]
+--------
+
+Trying Commons ID Batch:
+[88550092, 49786851, 46643246, 115620384, 59197214, 122223172, 116262099, 136376251, 67118042, 124404451, 22535495, 44730283, 10202616, 68782880, 19650675, 123593422, 100692247, 112236181, 31191799, 38645503, 33761449, 80761448, 60000354, 87380317, 94863314, 82389270, 118062279, 28617621, 81482555, 136598185, 17728017, 107579846, 90356997, 82043041, 69119257, 15225582, 16504640, 62207302, 38859966, 55581478, 144125533, 79531702, 98476224, 17788206, 53639917, 65892962, 95727114, 36778166, 43054831, 102571228]
+No 'depicts' statements for Wikimedia Commons Page ID: 88550092
+No 'depicts' statements for Wikimedia Commons Page ID: 49786851
+No 'depicts' statements for Wikimedia Commons Page ID: 46643246
+No 'depicts' statements for Wikimedia Commons Page ID: 115620384
+No 'depicts' statements for Wikimedia Commons Page ID: 59197214
+Row: {'wiki_commons_id': 122223172, 'wiki_data_q': ['Q34442', 'Q1311670', 'Q171448', 'Q3344258'], 'depicts': ['road', 'rail infrastructure', 'level crossing', 'Norton, Buckland and Stone']}
+Updated DataFrame:
+  wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+No data available for Wikimedia Commons Page ID: 116262099
+Row: {'wiki_commons_id': 136376251, 'wiki_data_q': ['Q173387', 'Q336533'], 'depicts': ['grave', 'badge']}
+Updated DataFrame:
+  wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+1       136376251                     [Q173387, Q336533]                                     [grave, badge]
+No 'depicts' statements for Wikimedia Commons Page ID: 67118042
+No 'depicts' statements for Wikimedia Commons Page ID: 124404451
+Row: {'wiki_commons_id': 22535495, 'wiki_data_q': ['Q3568301'], 'depicts': ['Will Smith']}
+Updated DataFrame:
+  wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+1       136376251                     [Q173387, Q336533]                                     [grave, badge]
+2        22535495                             [Q3568301]                                       [Will Smith]
+No 'depicts' statements for Wikimedia Commons Page ID: 44730283
+No 'depicts' statements for Wikimedia Commons Page ID: 10202616
+No 'depicts' statements for Wikimedia Commons Page ID: 68782880
+No 'depicts' statements for Wikimedia Commons Page ID: 19650675
+No 'depicts' statements for Wikimedia Commons Page ID: 123593422
+No data available for Wikimedia Commons Page ID: 100692247
+Row: {'wiki_commons_id': 112236181, 'wiki_data_q': ['Q12132'], 'depicts': ['calendar']}
+Updated DataFrame:
+  wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+1       136376251                     [Q173387, Q336533]                                     [grave, badge]
+2        22535495                             [Q3568301]                                       [Will Smith]
+3       112236181                               [Q12132]                                         [calendar]
+Row: {'wiki_commons_id': 31191799, 'wiki_data_q': ['Q17382554'], 'depicts': ['Metsola Cemetery Chapel']}
+Updated DataFrame:
+  wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+1       136376251                     [Q173387, Q336533]                                     [grave, badge]
+2        22535495                             [Q3568301]                                       [Will Smith]
+3       112236181                               [Q12132]                                         [calendar]
+4        31191799                            [Q17382554]                          [Metsola Cemetery Chapel]
+
+STANFORD DATAFRAME
+   wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+1       136376251                     [Q173387, Q336533]                                     [grave, badge]
+2        22535495                             [Q3568301]                                       [Will Smith]
+3       112236181                               [Q12132]                                         [calendar]
+4        31191799                            [Q17382554]                          [Metsola Cemetery Chapel]
+----------
+>>> sam_bankman_fried
+   wiki_commons_id                           wiki_data_q                                            depicts
+0        136038137        [Q1081138, Q193475, Q68816562]                  [historic site, menhir, Stenness]
+1         77474847                             [Q346785]                                        [Dick Dale]
+2        136410160          [Q355304, Q3241565, Q208201]  [watercourse, woodland, London Borough of Brom...
+3         17118019                            [Q1324130]                                         [roadkill]
+4        128215744                          [Q116459567]                                             [None]
+5         91945718                 [Q1358183, Q97001916]                   [Kuma River, 2020 Kyushu floods]
+6        114973003                            [Q4976676]                                  [Cornelia Jakobs]
+7          9793749                           [Q16648220]                                  [Kelsey Michaels]
+8        111380840                          [Q109408016]                               [Enchiridium daidai]
+9        115998367              [Q5758462, Q3868, Q2120]       [Copiapó Cathedral, Copiapó, Atacama Region]
+10         4638545                              [Q43144]                                      [Sarah Palin]
+11        10083647                             [Q536131]                              [King Street Station]
+12        53742004                          [Q110154955]                     [Iglesia de Santiago el Mayor]
+13       127986577  [Q5004679, Q11451, Q53060, Q3404436]                [path, agriculture, gate, Llangors]
+14        48421423                  [Q3030348, Q1229098]      [World of Color, Disney California Adventure]
+>>> bernie_madoff
+   wiki_commons_id                                        wiki_data_q                                            depicts
+0         40904249                                       [Q112335728]                                [Grave of Périgord]
+1         34360465                                          [Q508144]                                   [Elsie Ferguson]
+2        140642822       [Q93352, Q18691599, Q47053, Q40080, Q207257]  [coast, military facility, estuary, beach, Eas...
+3         88809321                        [Q212198, Q33163, Q1138737]                                 [pub, stool, lamp]
+4         34403853                                        [Q11866366]                                   [Jere Dahlström]
+5         95878410                                        [Q99926980]  [The Town and Country Planning (Industrial Dev...
+6        103847101                              [Q2144320, Q68814947]                   [overhead power line, Balmaghie]
+7         69209162                                          [Q283111]                               [Professor Moriarty]
+8         73366225                                         [Q5955713]                                [Sheikh-Zahed Tomb]
+9         99312608                                          [Q159572]                                  [Wittstock/Dosse]
+10        91869971                                          [Q152946]                                [Volkswagen Beetle]
+11       118724875                                         [Q1689380]                                     [Jimmy John's]
+12        66996620                                         [Q4941210]                             [Bonaventure Cemetery]
+13        88348193                                          [Q751876]                                          [château]
+14        17424204                                          [Q522574]                                  [Henriette Smeby]
+15        36172759                                         [Q1535905]                                      [Isla Holbox]
+16       132571997                                        [Q30090683]                              [Japanese curry rice]
+17       121627665               [Q171043, Q23002098, Q93301, Q52912]  [steam locomotive, SJ L (2nd), locomotive, Sta...
+18        94084843                                         [Q3581560]                 [Église Saint-Georges de Compains]
+19       137366842                              [Q692104, Q122119821]                       [parallel bars, Till Jabine]
+20        51849698  [Q3517561, Q245117, Q842402, Q9089, Q2820111, ...  [Hoysaleswara Temple, relief sculpture, Hindu ...
+21        87254459                                 [Q55996392, Q7735]                           [Lou Massenberg, diving]
+22        62150892                                        [Q42949526]                                             [None]
+23        23003149                                        [Q10725985]                                   [Äppelbo Church]
+24       104001136                                 [Q16970, Q1520344]                      [church building, Stevington]
+>>> all
+all(           allen_stanford
+>>> allen_stanford
+  wiki_commons_id                            wiki_data_q                                            depicts
+0       122223172  [Q34442, Q1311670, Q171448, Q3344258]  [road, rail infrastructure, level crossing, No...
+1       136376251                     [Q173387, Q336533]                                     [grave, badge]
+2        22535495                             [Q3568301]                                       [Will Smith]
+3       112236181                               [Q12132]                                         [calendar]
+4        31191799                            [Q17382554]                          [Metsola Cemetery Chapel]
