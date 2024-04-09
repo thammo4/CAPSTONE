@@ -76,7 +76,7 @@ def get_q_numbers (wc_page_id, verbose=False):
     return q_numbers;
 
 
-def get_wikidata_label (wd_item_id):
+def get_wikidata_label (wd_item_id, verbose=False):
     api_url = 'https://www.wikidata.org/w/api.php';
     api_params = {
         'action':'wbgetentities',
@@ -92,7 +92,8 @@ def get_wikidata_label (wd_item_id):
     if 'entities' in data and wd_item_id in data['entities'] and 'labels' in data['entities'][wd_item_id] and 'en' in data['entities'][wd_item_id]['labels']:
         label = data['entities'][wd_item_id]['labels']['en']['value'];
     else:
-        print(f'No depicts label found for {wd_item_id}');
+        if verbose:
+            print(f'No depicts label found for {wd_item_id}');
         return None;
 
     return label;
@@ -141,9 +142,9 @@ def create_df (row_count_wanted, verbose=False, csv_name=''):
         wc_page_ids = get_random_commons_ids(10*row_count_wanted); print(f'\nTrying Commons ID Batch:\n{wc_page_ids}');
 
         for wc_page_id in wc_page_ids:
-            q_numbers = get_q_numbers(wc_page_id);
+            q_numbers = get_q_numbers(wc_page_id, verbose=verbose);
             if q_numbers:
-                wd_depicts_statements = [get_wikidata_label(x) for x in q_numbers];
+                wd_depicts_statements = [get_wikidata_label(x, verbose) for x in q_numbers];
 
                 if wd_depicts_statements:
                     row['wiki_commons_id']  = wc_page_id;
@@ -161,6 +162,9 @@ def create_df (row_count_wanted, verbose=False, csv_name=''):
                         print(f'Updated DataFrame:\n{df_wiki}');
 
                     df_row_count = df_wiki.shape[0];
+
+                    if df_row_count % 10 == 0:
+                        print(f'df row count = {df_row_count}');
 
                     if df_row_count >= row_count_wanted:
                         enough_rows = True;
